@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset>
+    <legend>Formulário:</legend>
+
+        <label for="cName">Nome :</label>
+        <input type="text" id="cName">
+  
+    <h2> </h2>
+     <label for="sName">Sobrenome :</label>
+     <input type="text" id="sName">
+
+    <h2> </h2>
+     <label for="eName">E-mail :</label>
+     <input type="email" id="eName" required>
+    </fieldset>
+
+<fieldset>
+     <legend>Cursos:</legend>
+
+     <input type="radio" name="curso" id="op1">
+     <label for="spt">Suporte t.i</label>
+
+     <br>
+     <input type="radio" name="curso" id="op2">
+     <label for="gest.">Gestão </label>
+
+     <br>
+     <input type="radio" name="curso" id="op3">
+     <label for="dev.">Dev. web</label>
+    </fieldset>
+     <br>
+
+     <fieldset>
+     <p>Meios de transporte:</p>
+
+     <input type="checkbox" name="transp1" id="transp1" value="tp1">
+     <label for="transp1">Onibus</label>
+
+     <input type="checkbox" name="transp2" id="transp2" value="tp2">
+     <label for="transp2">Bike</label>
+
+     <input type="checkbox" name="transp3" id="transp3" value="tp3">
+     <label for="transp3">Carro</label>
+
+     <input type="checkbox" name="transp4" id="transp4" value="tp4">
+     <label for="transp4">Metro</label>
+    </fieldset>
+    <br><br>
+
+     <hr>
+
+     <fieldset>
+     <label for="time">Selecione seu time:</label>
+     <select name="time" id="time"> 
+          <option value="op1" disabled selected>Selecione aqui</option>
+          <option value="corinthians">Corinthians</option>
+          <option value="palmeiras">Palmeiras</option>
+          <option value="flamengo">Flamengo</option>
+          <option value="botafogo">Botafogo</option>
+
+</select>
+<br><br> 
+        <label for="cCidade">Qual a sua cidade:</label>
+        <input type="text" name="cCidade" id="cCidade" list="sugestao" autocomplete="on" placeholder="Sua cidade">
+        <datalist id="sugestao">
+         <option value="São Paulo"></option>
+         <option value="Guarulhos"></option>
+         <option value="Santos"></option>
+         <option value="Guaianases"></option>
+         <option value="Mogi"></option>
+        </datalist>
+    </fieldset>
+
+        <hr>
+<p>Utilizando o range</p>
+0 
+        <input type="range" name="valor_01" id="valor_01"> 10 <br>
+        <hr>
+        <label for="text01">teste:</label><br>
+        <textarea name="text01" id="text01" cols="100" rows="6" placeholder="aleatorio" maxlength="10" required></textarea>
+
+        <form action="mailto:izabella.nascimento.967@gmail.com" method="get"></form>
+        <fieldset>
+            <legend>Continuação:</legend>
+            <label for="cName">Nome:</label>
+            <input type="text" name="tName" id="cName" required>
+
+            <label for="sName">Sobrenome:</label>
+            <input type="text" name="tName" id="sName">
+
+            <label for="sName">Seu e-mail:</label>
+            <input type="text" name="eMail" id="eMail">
+            
+        </fieldset>
+<br><br>
+     
+     <input type="submit" volue="Enviar">
+     
+
+    </form>
+
+</body>
+</html>
