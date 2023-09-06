@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+h1{
+    color: #8E7068;
+}
+footer{
+    background-color:#BFAF9B;
+}
+
+.black {
+    color: black;
+}
+
+.Azul{
+    color: deepskyblue;
+}
+
+.rosa{
+    color: hotpink;
+}
+
+.Verde{
+    color:darkgreen;
+}
+
+.cinza{
+    color: darkgrey;
+}
